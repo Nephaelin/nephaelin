@@ -2,11 +2,15 @@
   "name": "nephaelin",
   "version": "1.0.0",
   "description": "",
-  "main": "back-end/server.js",
+  "main": "back-end/index.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nephaelin/nephaelin.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,5 +18,9 @@
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "massive": "~2.6.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Nephaelin/nephaelin/issues"
+  },
+  "homepage": "https://github.com/Nephaelin/nephaelin#readme"
 }
