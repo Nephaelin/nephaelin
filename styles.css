@@ -1,0 +1,119 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./images/black wallpaper.jpeg');
+    /*background-color: lightgray;*/
+    overflow: hidden;
+    }
+/*INTRODUCTION*/
+    .intro {
+        position: absolute;
+        height: 20vh;
+        width: 50vw;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        font-family: 'Zilla Slab';
+        font-size: 1vw;
+        color: gray;
+        letter-spacing: .1vw;
+        }
+
+    .title {
+        font-family: 'Josefin Sans';
+        font-size: 2.5vh;
+        letter-spacing: .5vw;
+        color: white;
+        }
+    .tabs {
+        font-family: 'Zilla Slab';
+        font-style: italic;
+        letter-spacing: .1vw;
+        font-size: 1vw;
+        color: aquamarine;
+        text-align: right;
+        opacity: .5;
+        }
+    .white-line {
+        background-color: white;
+        height: .2vh;
+        width: 50vw;
+        top: 35%;
+        left: 50%;
+        }
+/*PORTFOLIO*/
+    .projects {
+        position: absolute;
+        height: 40vh;
+        width: 50vw;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10px;
+        display: flex;
+        }
+    .project-title {
+        font-family: 'Josefin Sans';
+        font-size: 2vh;
+        letter-spacing: 3px;
+        color: white;
+        letter-spacing: .5vw;
+        }
+    .portfolio-list {
+        font-family: 'Zilla Slab';
+        font-size: .8vw;
+        color: white;
+        letter-spacing: .3vw;
+        line-height: 1.5;
+        }
+    .web-position {
+        width: 50%;
+        height: 100%;
+        }
+    .lab-position {
+        width: 50%;
+        height: 100%;
+        }
+    .frames {
+        font-family: 'Zilla Slab';
+        font-style: italic;
+        letter-spacing: .1vw;
+        font-size: 1vw;
+        color: gray;
+        text-align: right;
+        }
+    .explore {
+        cursor: pointer;
+        }
+    .explore:hover {
+        color: gray;
+    }
+    .contact-icons {
+        position: absolute;
+        height: 20vh;
+        width: 50vw;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        font-size: 1vw;
+        color: white;
+        text-align: right;
+        opacity: .5;
+        letter-spacing: .1vw;
+    }
+
+    .contact-text {
+        cursor: pointer;
+        font-family: 'Josefin Sans';
+        text-transform: uppercase;
+        font-size: .8vw;
+        color: aquamarine;
+        text-align: right;
+        letter-spacing: .1vw;
+    }
+
+    .clean-link {
+        text-decoration:  none;
+    }
